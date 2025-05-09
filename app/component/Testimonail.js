@@ -94,7 +94,7 @@ function Testimonail() {
   return (
     <div className="testmonail w-full min-h-screen flex flex-col  items-center overflow-hidden px-[5%] lg:px-0">
         <div className="w-full flex flex-col mt-25 mb-4 items-center lg:gap-15 gap-10 justify-center ">
-      <h1 className="lg:text-[44px] text-[32px] flex items-center gap-0 lg:gap-7  font-bold leading-15 relative">
+      <h1 className="lg:text-[44px] text-[30px] flex items-center gap-0 lg:gap-7  font-bold leading-15 relative">
         Hear from Our Users <motion.img  src="/heroI/arrow.png" alt="" className="w-25 absolute right-0 top-0 lg:translate-x-25 lg:-rotate-40 -rotate-50 translate-x-10 translate-y-4 " />
       </h1>
       <div className="flex flex-col gap-10 w-full mt-10">

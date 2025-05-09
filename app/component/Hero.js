@@ -57,7 +57,7 @@ function Hero() {
            }}
             src="/heroI/dumble.png"
             alt=""
-            className=" lg:w-[130px] w-[92px]  transform absolute lg:translate-x-55 lg:-translate-y-17 translate-x-35 -translate-y-6"
+            className=" lg:w-[130px] w-[86px]  transform absolute lg:translate-x-55 lg:-translate-y-17 translate-x-34 -translate-y-6"
           />
           <motion.img
            animate={{
@@ -72,7 +72,7 @@ function Hero() {
            
             src="/heroI/dumble2.png"
             alt=""
-            className="lg:w-[100px] w-[80px] lg:-translate-x-50 lg:translate-y-10 -translate-x-35 translate-y-13"
+            className="lg:w-[100px] w-[75px] lg:-translate-x-50 lg:translate-y-10 -translate-x-33 translate-y-13"
           />
           </div>
         </div>
