@@ -1,6 +1,7 @@
 "use client";
 import { motion, useMotionValue, useTransform } from "framer-motion";
 import { useRef } from "react";
+import { scroller } from 'react-scroll';
 function Coach() {
 
   return (
@@ -16,7 +17,12 @@ function Coach() {
         <p className="lg:text-[18px] text-[16px]  font-normal">
           Personal training and online coaching
         </p>
-        <button className="bg-blue-700 w-fit text-white lg:py-3 py-2 lg:px-5 px-3 rounded cursor-pointer">
+        <button className="bg-blue-700 w-fit text-white lg:py-3 py-2 lg:px-5 px-3 rounded cursor-pointer"
+         onClick={()=>scroller.scrollTo('contact', {
+          duration: 800,
+          delay: 0,
+          smooth: 'easeInOutQuart',
+        })}>
           Book Session
         </button>
         <ul className="hidden list-disc lg:flex flex-col lg:gap-3 gap-1 font-medium">

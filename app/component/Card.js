@@ -7,7 +7,7 @@ function Card() {
   return (
     <div className="cards w-full min-h-screen flex flex-col gap-14 justify-start items-center  lg:px-[10%] px-[5%] overflow-hidden ">
       <div className="relative w-full flex flex-col items-center gap-14 justify-center text-center lg:mt-45 mt-30 mb-4">
-        <div className=" hidden md:flex absolute top-0 left-0 -translate-y-8 translate-x-30">
+        <div className=" hidden lg:flex absolute top-0 left-0 -translate-y-8 translate-x-30">
           <MotionSparkle
             size={15}
             strokeWidth={1}
@@ -37,7 +37,7 @@ function Card() {
           />
         </div>
      
-        <div className=" hidden md:flex absolute top-0 right-0 -translate-y-8 -translate-x-27">
+        <div className=" hidden lg:flex absolute top-0 right-0 -translate-y-8 -translate-x-27">
           <MotionSparkle
             size={15}
             strokeWidth={1}
