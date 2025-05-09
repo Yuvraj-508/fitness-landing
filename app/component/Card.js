@@ -6,8 +6,8 @@ function Card() {
   const MotionSparkle = motion(Sparkle);
   return (
     <div className="cards w-full min-h-screen flex flex-col gap-14 justify-start items-center  lg:px-[10%] px-[5%] overflow-hidden ">
-      <div className="relative w-full flex flex-col items-center gap-14 justify-center text-center lg:mt-45 mt-30 mb-4">
-        <div className=" hidden lg:flex absolute top-0 left-0 -translate-y-8 translate-x-30">
+      <div className="relative w-full flex flex-col item-center gap-14 justify-center text-center lg:mt-45 mt-30 mb-4">
+        <div className=" hidden md:flex absolute top-0 left-0 -translate-y-8 translate-x-30">
           <MotionSparkle
             size={15}
             strokeWidth={1}
@@ -37,7 +37,7 @@ function Card() {
           />
         </div>
      
-        <div className=" hidden lg:flex absolute top-0 right-0 -translate-y-8 -translate-x-27">
+        <div className=" hidden md:flex absolute top-0 right-0 -translate-y-8 -translate-x-27">
           <MotionSparkle
             size={15}
             strokeWidth={1}
@@ -70,7 +70,7 @@ function Card() {
           Achieve Your Fitness Goals with Our Tailored Programs and Expert
           Guidance
         </h1>
-      <div className="flex flex-col lg:flex-row w-full item-center justify-center gap-10">
+      <div className="flex  flex-wrap lg:flex-nowrap lg:flex-row w-full items-center justify-center gap-10">
         <div className="card  flex flex-col items-center gap-5 justify-center lg:py-2 py-1">
           <Layers2 size="35" />
           <h1 className="text-[20px] lg:text-[24px]  text-[#383838] font-bold text-center">

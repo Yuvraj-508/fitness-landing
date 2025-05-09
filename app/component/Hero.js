@@ -8,7 +8,7 @@ import { sora } from '../layout';
 function Hero() {
   return (
     <div className=" hero w-full min-h-[100vh] flex  justify-start items-center lg:px-[10%] md:px-[8%] px-[5%] ">
-      <div className="flex flex-col lg:flex-row w-full items-center gap-8 sm:gap-14 md:gap-17 lg:gap-0 pt-10 lg:pt-8">
+      <div className="flex flex-col lg:flex-row w-full items-center gap-10 sm:gap-14 md:gap-17 lg:gap-0 pt-10 lg:pt-8">
         <div className="lft w-full lg:w-1/2 text-white flex flex-col  lg:items-start lg:justify-start items-center justify-center md:gap-5 gap-8 relative">
     
           <h1 className=' w-full font-bold text-[34px] md:text-[44px] sm:text-[38px] text-center lg:text-start lg:text-[50px] leading-10 lg:leading-none'>Achieve Your Fitness Goals with Expert Guidance</h1>

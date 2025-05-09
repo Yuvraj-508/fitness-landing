@@ -23,17 +23,21 @@ a{
   padding: 15px 20px;
   border-radius:25px;
 }
-@media (max-width:760){
-  .card{
-    width: 330px;
-    flex-wrap:wrap;
-    padding: 15px 15px;
-  }
+@media (max-width:768){
+ 
   .box{
-    width: 330px;
+    width: 40em;
     padding: 15px 12px;
   }
 }
+@media (max-width:1024){
+  .card{
+    width: 40em;
+    flex-wrap:wrap;
+    padding: 15px 15px;
+  }
+}
+
 .inp{
   margin-top:5px;
   box-shadow: 0 0 5px rgba(128, 128, 128, 0.786);
