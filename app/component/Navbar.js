@@ -14,7 +14,7 @@ export default function Navbar() {
       })
        },[])
   return (
-    <nav className={ `lg:px-[10%] px-[5%]  w-full  text-white py-4  fixed top-0 left-0 flex items-center justify-between z-20 ${sticky?"bg-[#071B2F]" : " "}`}>
+    <nav className={ `lg:px-[10%] md:px-[8%] px-[5%] w-full  text-white py-4  fixed top-0 left-0 flex items-center justify-between z-20 ${sticky?"bg-[#071B2F]" : " "}`}>
       <Link href="/" className='md:text-5xl text-4xl text-white'>
         LOGO
         </Link> 
@@ -24,7 +24,7 @@ export default function Navbar() {
           <Link to="testmonail" smooth={true} offset={-20} duration={500} className=' cursor-pointer text-[#e9e9e9]'>Reviews</Link>
           <Link to="contact " smooth={true} offset={-100} duration={500} className=' cursor-pointer text-[#dddddd]'>Contact Us </Link>
          </div>
-         <div className="lg:hidden">
+         <div className="md:hidden">
             <Menu
             size={30}
             onClick={()=>setToggle(prev=>!prev)}

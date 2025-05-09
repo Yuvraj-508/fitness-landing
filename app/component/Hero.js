@@ -7,11 +7,11 @@ import { sora } from '../layout';
 // import Db2 from '../../public/dumble2.png'
 function Hero() {
   return (
-    <div className=" hero w-full min-h-[100vh] flex  justify-start lg:items-center  lg:px-[10%] px-[5%] ">
-      <div className="flex flex-col lg:flex-row w-full items-center lg:justify-between gap-40 lg:gap-0 pt-30 lg:pt-8">
-        <div className="lft w-full lg:w-1/2 text-white flex flex-col  lg:items-start lg:justify-start items-center justify-center  gap-8 relative">
+    <div className=" hero w-full min-h-[100vh] flex  justify-start lg:items-center  lg:px-[10%] md:px-[8%] px-[5%] ">
+      <div className="flex flex-col lg:flex-row w-full items-center lg:justify-between gap-40 md:gap-50 lg:gap-0 pt-30 lg:pt-8">
+        <div className="lft w-full lg:w-1/2 text-white flex flex-col  lg:items-start lg:justify-start items-center justify-center md:gap-5 gap-8 relative">
     
-          <h1 className=' w-full font-bold text-[34px]  text-center lg:text-start lg:text-[52px] leading-10 lg:leading-none'>Achieve Your Fitness Goals with Expert Guidance</h1>
+          <h1 className=' w-full font-bold text-[34px] md:text-[44px] sm:text-[38px] text-center lg:text-start lg:text-[52px] leading-10 lg:leading-none'>Achieve Your Fitness Goals with Expert Guidance</h1>
           <p className=' hidden lg:flex text-[12px] leading-5.5 text-[#ffffffe3]'>
             Join countless others who have transformed their lives through
             personalized coaching. With a focus on your unique goals, we provide
@@ -44,7 +44,7 @@ function Hero() {
           <img
             src="/heroI/fitcoach.png"
             alt=""
-            className="absolute w-[180px] lg:w-[300px] "
+            className="absolute w-[180px] lg:w-[300px] md:w-[220px] sm:w-[200px] "
           />
           <motion.img
            animate={{
@@ -57,7 +57,7 @@ function Hero() {
            }}
             src="/heroI/dumble.png"
             alt=""
-            className=" lg:w-[130px] w-[86px]  transform absolute lg:translate-x-55 lg:-translate-y-17 translate-x-34 -translate-y-6"
+            className=" lg:w-[130px] md:w-[95px] w-[86px]  transform absolute lg:translate-x-55 md:translate-x-40 lg:-translate-y-17 translate-x-34 -translate-y-6"
           />
           <motion.img
            animate={{
@@ -72,7 +72,7 @@ function Hero() {
            
             src="/heroI/dumble2.png"
             alt=""
-            className="lg:w-[100px] w-[75px] lg:-translate-x-50 lg:translate-y-10 -translate-x-33 translate-y-13"
+            className="lg:w-[100px] md:w-[85px] w-[75px] lg:-translate-x-50 md:-translate-x-40 lg:translate-y-10 -translate-x-33 translate-y-13"
           />
           </div>
         </div>
