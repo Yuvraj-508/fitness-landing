@@ -1,7 +1,6 @@
 // components/Navbar.js
 'use client'
 import React, { useEffect, useState } from 'react';
-import { sora } from '../layout';
 import {Link} from 'react-scroll';
 import { Menu, X} from 'lucide-react';
 
@@ -18,7 +17,7 @@ export default function Navbar() {
       <Link href="/" className='md:text-5xl text-4xl text-white'>
         LOGO
         </Link> 
-         <div className={`${sora.className} hidden font-normal md:flex gap-8 text-xl`}>
+         <div className={` hidden font-normal md:flex gap-8 text-xl`}>
           <Link to="hero" smooth={true} offset={-200} duration={500} className='cursor-pointer'>Home</Link>
           <Link to="about" smooth={true} offset={-100} duration={500} className=' cursor-pointer text-[#f6f6f6]'>About</Link>
           <Link to="testmonail" smooth={true} offset={-20} duration={500} className=' cursor-pointer text-[#e9e9e9]'>Reviews</Link>
