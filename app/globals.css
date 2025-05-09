@@ -25,12 +25,12 @@ a{
 }
 @media (max-width:760){
   .card{
-    width: 335px;
+    width: 330px;
     flex-wrap:wrap;
     padding: 15px 15px;
   }
   .box{
-    width: 335px;
+    width: 330px;
     padding: 15px 12px;
   }
 }
