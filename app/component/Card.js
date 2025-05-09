@@ -6,7 +6,7 @@ function Card() {
   const MotionSparkle = motion(Sparkle);
   return (
     <div className="cards w-full min-h-screen flex flex-col gap-14 justify-start items-center  lg:px-[10%] px-[5%] overflow-hidden ">
-      <div className="relative w-full flex flex-col item-center gap-14 justify-center text-center lg:mt-45 mt-30 mb-4">
+      <div className="relative w-full flex flex-col items-center gap-14 justify-center text-center lg:mt-45 mt-30 mb-4">
         <div className=" hidden md:flex absolute top-0 left-0 -translate-y-8 translate-x-30">
           <MotionSparkle
             size={15}
