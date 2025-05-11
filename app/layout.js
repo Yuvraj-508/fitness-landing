@@ -3,6 +3,7 @@ import './globals.css';
 import { Sora } from 'next/font/google';
 import Navbar from './component/Navbar';
 import Footer from './component/Fotter'; // ✅ Corrected name
+import { DataProvider } from './Manager/Store';
 
 const sora = Sora({
   subsets: ['latin'],
@@ -17,9 +18,11 @@ export default function RootLayout({ children }) {
         <title>My App</title>
       </head>
       <body className={sora.className}>
+        <DataProvider>
         <Navbar />
         <main>{children}</main>
         <Footer />
+        </DataProvider>
       </body>
     </html>
   );

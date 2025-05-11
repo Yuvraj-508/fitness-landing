@@ -8,7 +8,7 @@ import { scroller } from 'react-scroll';
 // import Db2 from '../../public/dumble2.png'
 function Hero() {
   return (
-    <div className=" hero w-full min-h-[100vh] flex  justify-start items-center lg:px-[10%] md:px-[8%] px-[5%] ">
+    <div className=" hero w-full min-h-[100vh] flex  justify-start items-center lg:px-[10%] md:px-[8%] px-[5%] relative">
       <div className="flex flex-col lg:flex-row w-full items-center gap-10 sm:gap-14 md:gap-17 lg:gap-0 pt-10 sm:pt-14 lg:pt-8">
         <div className="lft w-full lg:w-1/2 text-white flex flex-col  lg:items-start lg:justify-start items-center justify-center md:gap-5 gap-8 relative">
     

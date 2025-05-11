@@ -54,3 +54,10 @@ a{
   z-index: -1; */
  
 /* } */ 
+.bef {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5); /* combines color and opacity */
+  inset: 0;
+  z-index: 10;
+  backdrop-filter: blur(20px); /* blurs the background behind this element */
+}
