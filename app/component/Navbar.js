@@ -18,8 +18,8 @@ export default function Navbar() {
        },[])
   return (
     <nav className={ `lg:px-[10%] md:px-[8%] px-[5%] w-full  text-white py-4  fixed top-0 left-0 flex items-center justify-between z-20 rel ${sticky?"bg-[#071B2F]" : " "}`}>
-      <Link href="/" className='md:text-5xl text-4xl text-white'>
-        LOGO
+      <Link href="/" className='md:text-[42px] text-4xl text-white  flex gap-1 font-medium items-center justify-center'>
+     <img src="/icon2.png" alt="" className="to-white w-10 mb-2" /> FitGrid 
         </Link> 
          <div className={` hidden font-normal md:flex gap-8 text-xl`}>
           <Link to="hero" smooth={true} offset={-200} duration={500} className='cursor-pointer'>Home</Link>

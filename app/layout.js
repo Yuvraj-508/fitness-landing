@@ -15,7 +15,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>My App</title>
+        <link rel="shortcut icon" href="/icon.png" type="image/x-icon" />
+        <title>FitGrid </title>
       </head>
       <body className={sora.className}>
         <DataProvider>
